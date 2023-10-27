@@ -24,18 +24,18 @@
   }
 
   to {
-    translate: 5px 15px;
+    translate: 5px -15px;
   }
 }
 
 @keyframes flowrigth {
   to {
-    translate: 5px 15px;
+    translate: 5px -15px;
   }
 }
 
 @keyframes flowleft {
   to {
-    translate: -5px 15px;
+    translate: -5px -15px;
   }
 }
