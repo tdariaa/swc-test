@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   transform: translate(4px, 57px);
   background-size: calc(230/1440*100vw) calc(269/1440*100vw);
-  animation: flowleft 7s ease-in-out alternate-reverse infinite;
 }
 
 @media screen and (max-width: 768px) {
