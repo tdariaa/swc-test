@@ -1,0 +1,19 @@
+.popup__time {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  width: 204px;
+  margin-bottom: 27px;
+  ;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__time {
+    margin-bottom: 20px;
+    font-size: 12px;
+    width: 100%;
+  }
+}

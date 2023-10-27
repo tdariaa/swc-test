@@ -1,0 +1,20 @@
+.main__img-fird {
+  position: absolute;
+  top: 0;
+  left: calc(705/1440*100vw);
+  z-index: 4;
+  width: calc(446/1440*100vw);
+  height: calc(588/1440*100vw);
+  background: url("../../../image/3.svg");
+  background-position: calc(66/1440*100vw) bottom;
+  background-repeat: no-repeat;
+  transform: translate(4px, 57px);
+  background-size: calc(230/1440*100vw) calc(269/1440*100vw);
+  animation: flowleft 7s ease-in-out alternate-reverse infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .main__img-fird {
+    display: none;
+  }
+}

@@ -1,0 +1,24 @@
+.main__img-first {
+  background-image: url("../../../image/2.png");
+  background-repeat: no-repeat;
+  background-position: -31px top;
+  background-size: calc(630/1440*100vw) calc(660/1440*100vw);
+  width: calc(402/1440*100vw);
+  height: calc(630/800*100vh);
+  max-width: 402px;
+  transform: translate(0px, 65px);
+  overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .main__img-first {
+    height: calc(360/768*100vh);
+    background-position: 5px top;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main__img-first {
+    display: none;
+  }
+}

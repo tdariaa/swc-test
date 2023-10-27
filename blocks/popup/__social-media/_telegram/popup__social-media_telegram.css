@@ -1,0 +1,4 @@
+.popup__social-media_telegram {
+  background: url("../../../../image/telegram.svg") no-repeat center left/ contain;
+  cursor: pointer;
+}

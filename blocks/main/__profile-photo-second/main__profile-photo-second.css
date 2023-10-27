@@ -1,0 +1,17 @@
+.main__profile-photo-second {
+  position: absolute;
+  left: calc(636/1440*100vw);
+  top: 481px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__profile-photo-second {
+    top: calc(481/1000*100vw);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__profile-photo-second {
+    display: none;
+  }
+}

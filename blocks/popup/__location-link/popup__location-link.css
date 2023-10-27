@@ -1,0 +1,21 @@
+.popup__location-link {
+  color: #506CCF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  border-bottom: #506CCF 1px solid;
+  margin-bottom: 43px;
+  text-decoration: none;
+  width: 148px;
+  padding-left: 3px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__location-link {
+    margin-bottom: 20px;
+    font-size: 12px;
+    width: 110px;
+  }
+}

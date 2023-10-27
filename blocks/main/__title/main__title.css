@@ -1,0 +1,28 @@
+.main__title {
+  color: var(--text-black, #08123A);
+  font-family: 'SF Pro Display', 'Arial', sans-serif;
+  font-size: clamp(24px, 50vw, calc(48/1440*100vw));
+  font-style: normal;
+  font-weight: 600;
+  line-height: 59px;
+  margin: 0;
+  letter-spacing: 0.015em;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__title {
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__title {
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main__title {
+    text-align: center;
+  }
+}

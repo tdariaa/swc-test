@@ -1,0 +1,17 @@
+.main__el-first {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 249px;
+  top: 644px;
+  background: url("../../../image/element1.svg");
+  background-repeat: no-repeat;
+  animation: circling 2s ease-in-out alternate-reverse infinite;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1360px) {
+  .main__el-first {
+    top: calc(664/1360*100vw);
+  }
+}

@@ -1,0 +1,11 @@
+.header__item {
+  padding: 9px calc(35/1440*100vw) 9px 0;
+}
+
+.header__item:last-of-type {
+  padding-right: 0;
+}
+
+.header__item:nth-last-child(2) {
+  padding-right: calc(34/1440*100vw);
+}

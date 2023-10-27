@@ -1,0 +1,11 @@
+.popup__time-title {
+  background: url("../../../image/three-o-clock-clock.svg") no-repeat center left/ contain;
+  padding-left: 29px;
+  margin-top: 29px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__time-title {
+    margin-top: 15px;
+  }
+}

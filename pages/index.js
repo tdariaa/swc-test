@@ -1,5 +1,4 @@
 // import './index.css';
-console.log('hi');
 
 const popup = document.querySelector('.popup');
 const button = document.querySelector('.header__contacts-button');

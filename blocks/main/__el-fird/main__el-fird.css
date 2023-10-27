@@ -1,0 +1,11 @@
+.main__el-fird {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  left: calc(808/1440*100vw);
+  top: 12px;
+  background: url("../../../image/element3.svg");
+  background-repeat: no-repeat;
+  animation: circling 3s ease-in-out alternate-reverse infinite;
+  z-index: 1;
+}

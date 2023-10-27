@@ -1,0 +1,10 @@
+.popup__contact_number {
+  color: #08123A;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__contact_number {
+    margin-bottom: 8px;
+  }
+}
