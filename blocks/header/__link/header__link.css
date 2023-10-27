@@ -10,3 +10,7 @@
   padding: 0;
   cursor: pointer;
 }
+
+.header__link:hover {
+  color: var(--text-dark-gray, rgb(95, 107, 119, 0.7));
+}

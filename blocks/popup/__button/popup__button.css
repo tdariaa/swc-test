@@ -15,3 +15,8 @@
   margin-bottom: 10px;
   cursor: pointer;
 }
+
+.popup__button:hover {
+  border: rgb(95, 107, 119, 0.7) solid 2px;
+  color: rgb(95, 107, 119, 0.7);
+}

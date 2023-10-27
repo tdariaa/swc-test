@@ -14,3 +14,8 @@
   box-shadow: 0px 20px 35px 0px #DFE8F4;
   cursor: pointer;
 }
+
+.main__button:hover {
+  color: var(--main-white, rgb(255, 255, 255, 0.8));
+  background: var(--main-purple, rgb(80, 108, 207, 0.7));
+}

@@ -12,6 +12,12 @@
   padding-left: 3px;
 }
 
+.popup__location-link:hover {
+  color: rgb(80, 108, 207, 0.8);
+  border-bottom: rgb(80, 108, 207, 0.7) 1px solid;
+}
+
+
 @media screen and (max-width: 680px) {
   .popup__location-link {
     margin-bottom: 20px;

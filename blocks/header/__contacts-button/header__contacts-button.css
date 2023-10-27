@@ -14,6 +14,10 @@
   cursor: pointer;
 }
 
+.header__contacts-button:hover {
+  background-color: rgba(73, 160, 241, 0.7);
+}
+
 @media screen and (max-width: 1439px) {
   .header__contacts-button {
     font-size: 12px;
