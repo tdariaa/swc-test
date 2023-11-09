@@ -1,6 +1,0 @@
-.main__rectangle {
-  position: absolute;
-  left: calc(288/1440*100vw);
-  bottom: 156px;
-  animation: circling 4s ease-in-out alternate-reverse infinite;
-}
